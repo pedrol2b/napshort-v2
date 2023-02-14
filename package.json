@@ -12,10 +12,13 @@
     "test:staged": "yarn test --findRelatedTests",
     "test:push": "yarn test --coverage"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedrol2b/napshort-v2.git"
+  },
   "author": "Pedro Bueno <pedrolbb.e@gmail.com>",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/pedrol2b/napshort-v2",
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
     "@types/cors": "^2.8.13",

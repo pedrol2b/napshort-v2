@@ -24,11 +24,13 @@ const UserSchema: Schema = new mongoose.Schema(
       type: String,
       required: true,
       unique: true,
+      index: { unique: true },
     },
     email: {
       type: String,
       required: true,
       unique: true,
+      index: { unique: true },
       lowercase: true,
     },
     name: {

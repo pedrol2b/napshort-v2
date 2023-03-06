@@ -6,6 +6,8 @@ declare global {
       readonly MONGO_DB?: string
       readonly CLOUD_STORAGE_API?: string
       readonly CLOUD_STORAGE_BUCKET?: string
+      readonly JSON_WEB_TOKEN_SECRET?: string
+      readonly JSON_WEB_TOKEN_EXPIRATION?: number
     }
   }
 }

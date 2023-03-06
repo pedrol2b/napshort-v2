@@ -1,4 +1,4 @@
-import router from '@/routes'
+import { router } from '@/routes'
 import cors from 'cors'
 import * as dotenv from 'dotenv'
 import express from 'express'

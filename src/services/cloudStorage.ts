@@ -21,7 +21,7 @@ interface IFile {
   cloudStorageURL?: string
 }
 
-export default function (file: IFile): Promise<IFile> {
+function cloudStorage(file: IFile): Promise<IFile> {
   return new Promise((resolve, reject) => {
     if (!file) reject()
 
@@ -43,3 +43,5 @@ export default function (file: IFile): Promise<IFile> {
     stream.end(file.buffer)
   })
 }
+
+export { cloudStorage }
